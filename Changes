@@ -6,7 +6,7 @@ Revision history for Dist-Zilla-Plugin-PodnameFromClassname
  [Bug Fixes]
 
  [Documentation]
- - Apparently, having [PodnameFromClassname] in dist.ini messed with the synopsis..
+ - Minor fixes and improvements.
 
  [Enhancements]
 
@@ -15,6 +15,11 @@ Revision history for Dist-Zilla-Plugin-PodnameFromClassname
  [New Features]
 
  [Revision]
+
+0.1001 2015-01-15T04:31:55Z CET
+ [Documentation]
+ - Apparently, having [PodnameFromClassname] in dist.ini messed with the
+   synopsis..
 
 0.1000 2015-01-15T04:27:26Z CET
  - Initial release

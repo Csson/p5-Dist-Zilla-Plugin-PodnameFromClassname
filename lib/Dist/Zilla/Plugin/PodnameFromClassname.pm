@@ -55,16 +55,16 @@ Results in:
 
 =head1 DESCRIPTION
 
-Dist::Zilla::Plugin::PodnameFromClassname is useful together with L<Moops> and L<Pod::Weaver>. Since Moops classes generally don't have a C<package> statement C<Pod::Weaver> can't pick up the module name.
+Dist::Zilla::Plugin::PodnameFromClassname is useful together with L<Moops> and L<Pod::Weaver>. Since Moops classes generally don't also have a C<package> statement C<Pod::Weaver> can't pick up the module name.
 
-Using this plugin, and adding a C<#PODCLASSNAME> directive fixes that by replacing that directive with C<#PODNAME: $classname>.
+Using this plugin and adding a C<# PODCLASSNAME> directive fixes that. It replaces that directive with C<# PODNAME: $classname>.
 
 There are a few simple rules:
 
 =for :list
-* There must be at least one line (of anything) before the C<#PODCLASSNAME> directive.
-* There must be at least one line (of anything) between the C<#PODCLASSNAME> directive and the C<class> statement.
-* The C<#PODCLASSNAME> directive must be before the C<class> statement.
+* There must be at least one line (of anything) before the C<# PODCLASSNAME> directive.
+* There must be at least one line (of anything) between the C<# PODCLASSNAME> directive and the C<class> statement.
+* The C<# PODCLASSNAME> directive must be before the C<class> statement.
 
 =head1 SEE ALSO
 

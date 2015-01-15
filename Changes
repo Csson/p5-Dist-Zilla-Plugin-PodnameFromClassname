@@ -1,4 +1,21 @@
 Revision history for Dist-Zilla-Plugin-PodnameFromClassname
 
 {{$NEXT}}
-     - Initial release
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+ - Apparently, having [PodnameFromClassname] in dist.ini messed with the synopsis..
+
+ [Enhancements]
+
+ [Meta]
+
+ [New Features]
+
+ [Revision]
+
+0.1000 2015-01-15T04:27:26Z CET
+ - Initial release
+

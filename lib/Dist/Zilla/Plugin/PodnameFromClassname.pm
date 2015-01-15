@@ -1,7 +1,7 @@
 use 5.10.1;
 
 # VERSION
-# ABSTRACT: Insert PODNAME for Moops classes
+# ABSTRACT: Insert PODNAME for Moops classes.
 
 package Dist::Zilla::Plugin::PodnameFromClassname;
 

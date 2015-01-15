@@ -1,5 +1,5 @@
 {
-   "abstract" : "Insert PODNAME for Moops classes",
+   "abstract" : "Insert PODNAME for Moops classes.",
    "author" : [
       "Erik Carlsson <info@code301.com>"
    ],
@@ -48,7 +48,17 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {},
-   "version" : "0.0001"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Dist-Zilla-Plugin-PodnameFromClassname/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Dist-Zilla-Plugin-PodnameFromClassname",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Dist-Zilla-Plugin-PodnameFromClassname.git",
+         "web" : "https://github.com/Csson/p5-Dist-Zilla-Plugin-PodnameFromClassname"
+      }
+   },
+   "version" : "0.1001"
 }
 

@@ -1,10 +1,10 @@
 # NAME
 
-Dist::Zilla::Plugin::PodnameFromClassname - Insert PODNAME for Moops classes
+Dist::Zilla::Plugin::PodnameFromClassname - Insert PODNAME for Moops classes.
 
 # VERSION
 
-Version 0.0001, released 2015-01-15.
+Version 0.1001, released 2015-01-15.
 
 # SYNOPSIS
 
@@ -14,7 +14,7 @@ In dist.ini:
 
 In a [Moops](https://metacpan.org/pod/Moops) class:
 
-    # PODNAME: My::Class
+    # PODCLASSNAME
 
     class My::Class { ... }
 
@@ -40,6 +40,10 @@ There are a few simple rules:
 
 - [Dist::Zilla::Plugin::PodnameFromFilename](https://metacpan.org/pod/Dist::Zilla::Plugin::PodnameFromFilename)
 - [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla)
+
+# SOURCE
+
+[https://github.com/Csson/p5-Dist-Zilla-Plugin-PodnameFromClassname](https://github.com/Csson/p5-Dist-Zilla-Plugin-PodnameFromClassname)
 
 # HOMEPAGE
 

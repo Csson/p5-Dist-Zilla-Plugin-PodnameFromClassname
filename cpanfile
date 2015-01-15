@@ -1,7 +1,8 @@
 requires 'perl', '5.010001';
 
-# requires 'Some::Module', 'VERSION';
+requires 'Moose';
+requires 'Dist::Zilla';
 
 on test => sub {
-requires 'Test::More', '0.96';
+	requires 'Test::More', '0.96';
 };

@@ -1,7 +1,12 @@
-/Dist-Zilla-Plugin-PodnameFromClassname-*
+# This file was auto-generated from iller.yaml by Dist::Iller on 2016-04-02 20:41:08 UTC.
+# The following configs were used:
+# * Dist::Iller::Config::Author::CSSON: 0.0309
+
 /.build
 /_build*
 /Build
 MYMETA.*
 !META.json
 /.prove
+/Dist-Zilla-Plugin-PodnameFromClassname-*
+.coverhistory.json

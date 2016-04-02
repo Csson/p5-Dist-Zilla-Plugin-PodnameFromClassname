@@ -7,7 +7,7 @@ use 5.010000;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Insert PODNAME for Moops/MooseX::Declare/etc classes.",
+  "ABSTRACT" => "Insert PODNAME for Moops classes.",
   "AUTHOR" => "Erik Carlsson <info\@code301.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -16,15 +16,23 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.010000",
   "NAME" => "Dist::Zilla::Plugin::PodnameFromClassname",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Dist::Zilla::Role::FileFinderUser" => "5.000",
+    "Dist::Zilla::Role::FileMunger" => "5.000",
+    "Moose" => "2.1405",
+    "namespace::autoclean" => "0.22"
+  },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
+    "Path::Tiny" => "0.072",
+    "Test::DZil" => "5.000",
+    "Test::Differences" => "0.50",
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.1003",
+  "VERSION" => "0.1100",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -32,11 +40,18 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Dist::Zilla::Role::FileFinderUser" => "5.000",
+  "Dist::Zilla::Role::FileMunger" => "5.000",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "Test::More" => "0.96"
+  "Moose" => "2.1405",
+  "Path::Tiny" => "0.072",
+  "Test::DZil" => "5.000",
+  "Test::Differences" => "0.50",
+  "Test::More" => "0.96",
+  "namespace::autoclean" => "0.22"
 );
 
 

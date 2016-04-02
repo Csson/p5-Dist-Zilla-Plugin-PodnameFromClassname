@@ -4,17 +4,22 @@ Revision history for Dist-Zilla-Plugin-PodnameFromClassname
  [API Changes]
 
  [Bug Fixes]
+  - $VERSION was outside the package declaration (fixes #1, thanks BAREFOOT).
 
  [Documentation]
- - Minor fixes and improvements.
 
  [Enhancements]
+  - Removed the rules regarding empty lines around the PODCLASSNAME comment.
 
  [Meta]
 
  [New Features]
 
  [Revision]
+
+0.1002 2015-01-15T12:38:19Z CET
+ [Documentation]
+ - Minor fixes and improvements.
 
 0.1001 2015-01-15T04:31:55Z CET
  [Documentation]

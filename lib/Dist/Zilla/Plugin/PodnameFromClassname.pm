@@ -6,7 +6,7 @@ package Dist::Zilla::Plugin::PodnameFromClassname;
 
 # ABSTRACT: Insert PODNAME for Moops classes.
 # AUTHORITY
-our $VERSION = '0.1100';
+our $VERSION = '0.1101';
 
 use Moose;
 use namespace::autoclean;

@@ -2,11 +2,11 @@ use 5.10.0;
 use strict;
 use warnings;
 
-# VERSION
-# ABSTRACT: Insert PODNAME for Moops classes.
-
 package Dist::Zilla::Plugin::PodnameFromClassname;
 
+# ABSTRACT: Insert PODNAME for Moops classes.
+# AUTHORITY
+our $VERSION = '0.1100';
 
 use Moose;
 use namespace::autoclean;
